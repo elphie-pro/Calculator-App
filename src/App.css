@@ -1,0 +1,122 @@
+
+.box{
+  position: absolute;
+  width: 25vw;
+  height: 50vh;
+  border: #5f57ff 2px solid;
+  margin-left: 35%;
+  margin-top: 8%;
+}
+.display{
+  position: absolute;
+  background-color: #ededed;
+  width: 20vw;
+  height: 8vh;
+  margin-top: 5%;
+  margin-left: 10%;
+  color: #242424;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.buttons{
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6%;    
+    row-gap: 5%;
+    margin-top: 46%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.buttons button{
+    font-size: 1rem;  
+    padding: 4%;      
+    background-color: #f0f0;
+    border: #5f57ff 2px solid; 
+     border-radius: 5px;
+    cursor: pointer;  
+    width: 4vw;
+    height: 6vh;
+    color: #ededed;
+    font-weight: 800;
+}
+
+.equal{
+  position: absolute;
+  font-size: 1.5rem;  
+   padding: 2%;      
+   background-color: #f0f0;
+   border: #5f57ff 2px solid; 
+    border-radius: 5px;
+   cursor: pointer; 
+   margin-top: -5.5%;
+   margin-left: 52%;
+   width: 9.3vw;
+   height: 6vh;
+   color: #ededed;
+   font-weight: 800;
+}
+
+.equal:hover{
+  width: 10.3vw;
+  height: 7vh;
+  color: #5f57ff;
+  font-weight: 900;
+}
+
+.clear{
+    position: absolute;
+   font-size: 1.5rem;  
+    padding: 2%;      
+    background-color: #f0f0;
+    border: #5f57ff 2px solid; 
+     border-radius: 5px;
+    cursor: pointer; 
+    margin-top: -72%;
+    margin-left: 11%;
+    width: 9vw;
+    height: 6vh;
+    color: #ededed;
+    font-weight: 800;
+}
+
+.clear:hover{
+  width: 9.6vw;
+  height: 6.5vh;
+  color: #5f57ff;
+  font-weight: 900;
+}
+
+.div{
+  position: absolute;
+  font-size: 1rem;  
+    padding: 4%;      
+    background-color: #f0f0;
+    border: #5f57ff 2px solid; 
+     border-radius: 5px;
+    cursor: pointer; 
+    width: 4vw;
+    height: 6vh;
+    margin-top: -72%;
+    margin-left: 52%;
+    color: #ededed;
+    font-weight: 800;
+}
+
+.per{
+  position: absolute;
+  font-size: 1rem;  
+    padding: 4%;      
+    background-color: #f0f0;
+    border: #5f57ff 2px solid; 
+     border-radius: 5px;
+    cursor: pointer; 
+    width: 4vw;
+    height: 6vh;
+    margin-top: -72%;
+    margin-left: 73%;
+    color: #ededed;
+    font-weight: 800;
+}
